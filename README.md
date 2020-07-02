@@ -11,7 +11,8 @@ The purpose of this repository is to create a single repository describing OpenS
 
 ## Questions to answer
 - Who is looking for this content? 
-- What problem(s) are the developers who need this content trying to solve? 
-- What pain points are they trying to address? 
-- What is their end goal once they find this content?
-- What are they hoping to accomplish?
+Developers who wishes to build containers to run on Red Hat provided Kubernetes following good practices.
+
+- What problem(s) are the developers who need this content trying to solve? There are loads off bad examples on the internet that causes the 'it worked on my laptop' problem. We believe this should not be an issue in the container world.
+
+- What pain points are they trying to address? Provide simple easy copy & paste examples that follow good practices.
