@@ -68,16 +68,6 @@ FROM registry.redhat.io/rhel8/python-38
 
 ENV PATH="/opt/venv/bin:$PATH"
 
-LABEL summary="$SUMMARY" \
-      description="$DESCRIPTION" \
-      io.k8s.description="$DESCRIPTION" \
-      io.k8s.display-name="Python 3.x" \
-      io.openshift.expose-services="8000:http" \
-      io.openshift.tags="builder,python,python38,python-38,rh-python38" \
-      version="1" \
-      com.redhat.license_terms="https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI" \
-      maintainer="maintainer name"
-
 ENV PORT=5000
 
 EXPOSE 5000
