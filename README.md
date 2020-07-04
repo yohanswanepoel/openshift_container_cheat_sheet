@@ -1,3 +1,5 @@
+# Deprecated see: https://github.com/redhat-developer-demos/containers
+
 # OpenShift Container Cheat Sheet
 
 The purpose of this repository is to create a single repository describing OpenShift container best practices with some ready examples for at least the following set of containers:
